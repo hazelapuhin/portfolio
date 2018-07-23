@@ -1,0 +1,199 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    width: 100%;
+    color: lightblue;
+    overflow: auto;
+}
+
+.background {
+    height: 100vh;
+    background-color: black;
+    background-image: url(../images/wifi.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: fixed;
+ }
+.container-fluid {
+    position: fixed;
+    
+}
+#box1 {
+    text-align: center;
+    float: left;
+    position: relative;
+
+}
+
+.row {
+    position: relative;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+}
+
+#box1  #me {
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    position: relative;
+    min-width: 992px
+    max-width: 50%;
+    border-radius: 50%;
+    border: 3px inset white;
+}
+
+#yellow {
+    color: yellow;
+}
+
+#blue {
+    color: blue;
+}
+
+#red {
+    color: red;
+}
+
+#green {
+    color: green;
+}
+
+#orange {
+    color: orange;
+}
+
+#violet {
+    color: violet;
+}
+
+#box2 {
+    float: left;
+    position: relative;
+    width: 100%;
+    height: 80vh;  
+    margin: auto;
+
+    background-image: url("../images/world.gif");
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container-fluid .btn {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: black;
+    font-size: 16px;
+    padding: 15px 24px;
+    border: 15px outset white;
+    cursor: pointer;
+    border-radius: 25px 0px;
+    text-align: center;
+    z-index: 10;
+    width: auto;
+    margin: auto; 
+    font-family: 'Bungee Inline', cursive;
+}
+
+.btn:hover {
+    background-color: grey;
+    color: white;
+    opacity: 0.9;
+}
+
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 2em;
+
+}
+
+h2 {  
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.2em;
+ 
+}
+
+/* Style all fontawesome icons */
+
+.navbar-brand {
+    width: 30%;
+    float: left;    
+}
+
+.socmed {
+    float: left;
+    text-anchor: block;
+    display: block;
+    margin: 5px;
+    outline: 5px;
+}
+
+.fab {
+    padding: 3px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    float: right;
+    border-radius: 30% 0%;
+    background: grey;
+    border: 3px solid lightblue;
+    margin-right: 3px;
+ }
+
+.fab:hover {
+    opacity: 0.5;
+    background-color: grey;
+}
+
+.fa-facebook {
+    background: grey;
+    color: white;
+}
+
+.fa-twitter {
+    background: grey;
+    color: white;
+}
+
+.fa-google {
+    background: grey;
+    color: white;
+}
+
+.fa-youtube {
+    background: grey;
+    color: white;
+}
+
+.fa-github {
+    background: grey;
+    color: white;
+}
+
+.fa-gitlab {
+    background: grey;
+    color: white;
+}
+
+.footer {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+  .navbar:not(#topnav-collapse) {
+    background-color: black;
+  }
+}
+@media (min-width: 800px) and (max-width: 850px) {
+  .navbar:not(#topnav-collapse) {
+    background-color: black;
+  }
+}
+

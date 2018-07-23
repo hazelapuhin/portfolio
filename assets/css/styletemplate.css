@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*border: 1px solid yellow;*/
+
+}
+
+.row::after {    
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+body {
+    background-image: url("../images/connect.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: scroll;
+    background-position: center;
+    height: auto;
+    width: 100%;
+    overflow: auto;
+    opacity: 0.85;
+    background-color: white;
+}
+
+#grad1 {
+    height: 100vh;
+    background-image: linear-gradient(black, black, blue, yellow);
+}
+.container-fluid {
+    position: relative;
+    width: 100%;
+}
+
+.header {
+    background-image: url("../images/connections.jpg");
+    background-size: 100%;
+    background-image: fixed;
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 100%;
+    height: 100%;
+    margin: 2% auto 0% auto;
+    opacity: 0.9;
+    border: 1px solid blue;
+}
+
+.logo {
+    float: left;
+    display: inline-block;
+}
+img {
+    width: 100px;
+    height: 100px;
+}
+
+/*#socmed {
+    display: inline-block;
+    text-align: right;
+    border: 1px solid blue;
+    height: auto;
+    float: left;
+    margin: auto;
+    font-size: 2.5em;
+
+}*/
+
+#socmed {
+    width: 65px;
+    height: 100%;
+    top: 30%;
+    left: 25px;
+    position: fixed;
+    z-index: 50;
+    text-anchor: block;
+    display: block;
+    outline: 5px;
+    
+}
+
+.row > a {
+    float: right;
+    padding: 5px 5px;
+}
+
+
+.nav {
+    list-style-type: none;
+    text-align: left;
+    margin: auto 0;
+}
+
+.nav li {
+    display: inline-block;
+    font-size: 1.5em;
+    float: left;
+    margin-right: 25px;
+}
+
+hr {
+    size: 2px solid yellow;
+}
+.main {
+    float: left;
+    margin: auto;
+    padding: 0px 5px;
+}
+
+.fab {
+    padding: 3px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    float: right;
+    border-radius: 30% 0%;
+    background: black;
+    border: 3px solid blue;
+    margin-top: 3px;
+ }
+
+.fab:hover {
+    opacity: 0.5;
+    background-color: grey;
+}
+
+.fa-facebook {
+    background: grey;
+    color: white;
+}
+
+.fa-twitter {
+    background: grey;
+    color: white;
+}
+
+.fa-google {
+    background: grey;
+    color: white;
+}
+
+.fa-youtube {
+    background: grey;
+    color: white;
+}
+
+.fa-github {
+    background: grey;
+    color: white;
+}
+
+.fa-gitlab {
+    background: grey;
+    color: white;
+}
+
+
+#footer li{
+    list-style: none;
+}
+
+footer {
+    position: relative;
+    text-align: left;
+    background-color: black;
+    overflow: hidden;
+    color: white;
+    float: left;
+    text-align: bottom;
+    opacity: 0.8;
+    padding-top: 5px;
+    font-size: 0.7em;
+
+ }
+
+ #footer {
+    color: grey;
+
+ }
+
+#disclaimer {
+    position: relative;
+    text-align: center;
+    float: left;
+}
+

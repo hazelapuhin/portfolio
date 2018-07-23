@@ -1,0 +1,311 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    padding: 0px;
+    font-size: 1em; 
+   
+}
+
+header {
+    position: relative;
+    background-image: url("../images/connections.jpg");
+    background-size: 100%;
+    background-image: fixed;
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 100%;
+    border: 1px solid blue;
+    height: 18vh;
+    float: right;
+    text-align: right;
+}
+
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 2px 0 22px 0;
+    display: inline-block;
+    border: 1px solid lightblue;
+    color: blue;
+ }
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline-color: grey;
+  border: 1px solid lightblue;
+  border-radius: 10%;
+  color: blue;
+}
+
+
+button {
+    background-color: blue;
+    color: white;
+    padding: 5px 20px;
+    margin: 8px 0;
+    border: 5px outset grey;
+    cursor: pointer;
+    width: 150px;
+    border-radius: 10px 0px;
+}
+
+button:hover {
+	background-color: grey;
+	color: white;
+    opacity: 0.5%;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    width: 100px;
+    padding: 5px 20px;
+    background-color: pink;
+    border-radius: 10px 0px;
+}
+
+/* The Close Button (x) */
+.exit {
+	cursor: pointer;
+	position: absolute;
+    right: 25px;
+    top: 0;
+    color: red;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.imgcontainer {
+   /* position: center;*/
+ }
+
+#logo {
+    width: 100px;
+    height: 100px;
+}
+
+#widipedia {
+    height: 100px;
+    width: 100%;
+    float: left;
+    display: inline-block;
+    margin-left: 0px;
+}
+
+#login {
+    position: relative;
+    float: right;
+    margin: auto;
+    margin-top: 2%;
+
+}
+
+/* Modal Content/Box */
+.modal-content {
+    position: relative;
+    text-align: left;
+    margin: 5% 20%; 
+    border: 3px outset blue;
+    border-radius: 15px;
+    width: 60%; 
+    color: black;
+    float: left;
+    background-image: url("../images/welcome.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 93%;
+    background-position: bottom;
+
+}
+
+/* The Modal (background) */
+.modal {
+    position: fixed; 
+    z-index: 1; 
+    width: 100%;  
+    height: auto;  
+    overflow: hidden;  
+
+}
+
+.box {
+    float: left;
+}
+
+#box1 {
+	overflow: hidden;
+	height: 100%;
+	padding: 30px;
+	width: 100%;
+	overflow: left;
+	color: white;
+	float: left;
+    
+
+}
+
+#box1 li {
+    font-size: 0.9em;
+   
+}
+
+#box2 {
+	/*background-color: yellow;*/
+	height: 100vh;
+	padding: 10px;
+	width: 100%;
+	color: black;
+	float: left;
+    font-size: 0.9em;
+    margin: auto;
+    overflow: auto;
+
+}
+
+#logo{
+	width: 100px;
+	text-align: left;
+	padding-left: 0px;
+	float: left;
+	opacity: 0.8;
+    display: inline-block;
+}
+
+#wifipedia {
+    float: left;
+}
+
+.imgcontainer img {
+    width: 150px;
+    height: 150px;
+}
+
+.imgcontainer {
+    display: flex;
+    justify-content: center;
+}
+
+#grad1 {
+    background-image: url("../images/connect.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: scroll;
+    background-position: center;
+    height: auto;
+    width: 100%;
+    opacity: 0.8;
+    background-color: white;
+    height: 100vh;
+    background-image: linear-gradient(black, blue, yellow, yellow);
+    overflow: auto;
+
+}
+
+#body {
+	background-image: url("../images/connect.png");
+	background-size: cover;
+	background-image: center;
+	background-repeat: no-repeat;
+	height: 150vh;
+	width: 100%;
+	overflow: scroll;
+	z-index: 999999999;
+    opacity: 0.95;
+}
+
+h2, h3, h4 {
+	overflow: hidden;
+    font-size: 2em;
+
+}
+
+#yellow {
+    color: yellow;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+}
+
+#blue {
+    color: blue;
+}
+
+#white {
+    color: white;
+}
+.box:after {    
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.row::after {    
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+#footer li{
+    list-style: none;
+}
+
+footer {
+    position: relative;
+    text-align: left;
+    background-color: black;
+  	overflow: hidden;
+  	color: white;
+  	float: left;
+  	text-align: bottom;
+  	opacity: 0.8;
+    padding-top: 5px;
+    font-size: 0.7em;
+
+ }
+
+ #footer {
+    color: grey;
+
+ }
+
+#disclaimer {
+    position: relative;
+    text-align: center;
+    float: left;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+    .column {
+        width: 100%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+
+div {
+    width: auto;
+    height: auto;
+    position: relative;
+    -webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
+    animation: mymove 5s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
+    from {left: -300px;}
+    to {left: 0px;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    from {left: -400px;}
+    to {left: 0px;}
+}

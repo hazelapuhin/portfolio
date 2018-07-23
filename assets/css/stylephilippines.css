@@ -1,0 +1,113 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    font-family: 'Poor+Story', cursive;
+    color: white;
+    font-size: 1em;
+ 
+
+}
+
+.main{
+	position: relative;
+	height: 100vh;
+	width: 100%;
+	margin: 0 auto;
+  	text-align: center;
+  	overflow: hidden;
+  	padding-top: 15vh;
+  	padding-right: 5%;
+  	padding-left: 5%;
+    background-image: linear-gradient(black, blue, yellow);
+    background-size: 100vh;
+    overflow: hidden;
+    z-index: 1 !important;
+    opacity: 0.9;
+}
+
+body {
+	background-image: url("../images/connect.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: fixed;
+    background-attachment: fixed;
+	background-position: center;
+    scroll-behavior: none;
+    }
+
+.pitch {
+	position: absolute;
+	text-align: center;
+	margin: 0 auto;
+
+}
+
+button {
+	position: relative;
+	color: black;
+    font-size: 16px;
+    padding: 10px 24px;
+    border: 10px outset grey;
+    cursor: pointer;
+    border-radius: 25px 0px;
+    text-align: center;
+    z-index: 10;
+    width: auto;
+    top: 10vh;
+    background-color: blue;
+    font-family: 'Bungee Inline', cursive;
+}
+
+button:hover {
+    background-color: grey;
+    color: white;
+    opacity: 0.9;
+    border: 10px outset white;
+}
+
+
+.img-comp-container {
+  position: relative;
+  height: 200px; /*should be the same height as the images*/
+}
+
+.img-comp-img {
+  position: absolute;
+  width: auto;
+  height: auto;
+  overflow:hidden;
+}
+.img-comp-img img {
+  display:block;
+  vertical-align:middle;
+}
+.img-comp-slider {
+  position: absolute;
+  z-index:9;
+  cursor: ew-resize;
+  /*set the appearance of the slider:*/
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  opacity: 0.7;
+  border-radius: 50%;
+}
+
+
+@media (max-width: 768px) {
+  .navbar:not(#topnav-collapse) {
+    background-color: black;
+  }
+  .grad1{
+  	width: 100%;
+  	height: auto;
+  }
+}
+@media (min-width: 800px) and (max-width: 850px) {
+  .navbar:not(#topnav-collapse) {
+    background-color: black;
+  }
+}
+
+

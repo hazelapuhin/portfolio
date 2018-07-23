@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /*float: left;*/
+}
+
+
+.container {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  margin: auto;
+  float: left;
+  position: inline-block;
+}
+
+/*.row:after {  
+  content: " ";
+  display: block;
+  clear: both;
+}
+*/
+.container > .clm {
+  background-color: red;
+  text-align: center;
+  float: left;
+}
+
+
